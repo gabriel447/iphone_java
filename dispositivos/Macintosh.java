@@ -1,18 +1,8 @@
 package dispositivos;
 
 import apps.NavegadorNaInternet;
-import apps.ReprodutorMusical;
 
-public class Macintosh implements NavegadorNaInternet, ReprodutorMusical {
-    public void selecionarMusica() {
-        System.out.println("Selecionar música");
-    }
-    public void tocar(){
-        System.out.println("Tocar música");
-    }
-    public void pausar(){
-        System.out.println("Parar música");
-    }
+public class Macintosh implements NavegadorNaInternet {
     public void exibirPagina(){
         System.out.println("Exibir página");
     }
