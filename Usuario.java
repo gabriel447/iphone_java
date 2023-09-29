@@ -22,9 +22,6 @@ public class Usuario {
         macintosh1.exibirPagina();
         macintosh1.adicionarNovaAba();
         macintosh1.atualizarPagina();
-        macintosh1.selecionarMusica();
-        macintosh1.tocar();
-        macintosh1.pausar();
 
         System.out.println(" ");
         System.out.println("** Iphone **");
@@ -38,7 +35,6 @@ public class Usuario {
         iphone1.exibirPagina();
         iphone1.adicionarNovaAba();
         iphone1.atualizarPagina();
-
 
     }
 }
