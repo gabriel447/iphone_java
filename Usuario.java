@@ -1,7 +1,7 @@
 import dispositivos.Ipod;
 import dispositivos.Macintosh;
 import dispositivos.Iphone;
-public class Main {
+public class Usuario {
     public static void main(String[] args) {
         Ipod ipod1 = new Ipod();
         Macintosh macintosh1 = new Macintosh();
